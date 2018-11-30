@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>McDowells</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+
+        <center>
+            <img src = "../../assets/img/Logo.jpg">
+        </center>
+    <center>
+        <h2 class="titleFont">Eat 'Em Up!!!</h2>
+    </center>
+    <hr><br>
+    {{{body}}}
+    <hr><br>
+    <form action = "burger/create" method = "POST">
+    <div class="row">
+        <div class = "form-group col-lg-6">
+            <center>
+                <label for = "new_burger" class = "burgerNames"> Place Your Order Here!!</label>
+            </center>
+            <textarea class="form-control" columns = "5" rows="5" id = "new_burger" name = "burger_name"></textarea>
+        </div>
+    </div>
+    <button id="submit-button" type="submit" class="btn btn-warning btn-block">Press to Submit Order</button>
+    
+    </form>
+
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</body>
+</html>
